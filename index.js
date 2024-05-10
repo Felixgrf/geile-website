@@ -19,7 +19,7 @@ document.getElementById("best").onclick = function(){
     var radius = parseFloat(document.getElementById("radius").value);
     if (!isNaN(radius)) {
         ergebnis = document.getElementById("radius").value*2*3.14
-        document.getElementById("erg").textContent = `Ergebnis: Der Radius beträgt ${ergebnis} cm `
+        document.getElementById("erg").textContent = `Ergebnis: Der Umfang beträgt ${ergebnis} cm `
     
     }
    else 
