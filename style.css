@@ -1,0 +1,149 @@
+body{
+    background-image: url(new.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2.3em;
+    color:rgb(149, 246, 69)
+}
+
+#zähler{
+    display: block;
+    text-align: center;
+
+}
+
+#cont{
+    text-align: center;
+    
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(149, 246, 69);
+    background-color: rgb(95, 160, 116);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: backround-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(226, 125, 43);
+}
+
+#Nutzername{
+    text-align: center;
+}
+
+#datum {
+    display: block;
+    margin: 0 auto; /* Horizontales Zentrieren */
+
+}
+
+#bild{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+}
+
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cock{
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    background-color:white(0%,0%,50%,50%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+
+
+#buttons{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+width: 100px;
+border-radius: 100px;
+color: rgb(118, 23, 23);
+}
+
+
+.buttons1{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(254, 255, 253);
+    background-color: rgb(69, 70, 70);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: backround-color }
+
+.buttons1:hover{
+    background-color: orange;
+}
+
+.calcbt{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 134, 29);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: backround-color }
+
+#anzeige{
+    height: 100px;
+    max-width:276px;
+    color: white;
+    border: 4px;
+    border-color: aliceblue;
+    border-style: groove;
+    padding: 5px;
+
+    font-size: 59px;
+    background-color: rgb(79, 79, 79);
+}
+#meinBestätigen{
+    font-size: 20px;
+}
+#best{
+    font-size: 20px;
+
+}
+
+#klickme{
+    font-size: 30px;
+    color: rgb(72, 195, 179);
+    background-color: rgb(43, 137, 35);
+    border-radius: 5px;
+    cursor:pointer;
+    align-items: center
+}
+
+#zahlen{
+    display: flex;  
+    justify-content: center;
+    padding-bottom: 5cm;
+}
+
+#countzahl{
+    padding-right: 1cm;
+}
+
+#hintergrund{
+    background-color: rgba(21, 142, 63, 0.5);
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

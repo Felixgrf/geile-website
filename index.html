@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meine Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <h1 id= "Nutzername" >Bitte geben Sie ihren Nutzernamen ein </h1>
+        <div id="clock">    <div id ="cock">00:00:00</div></div>
+            <label> Nutzername: </label>
+        <input id="meinText"> <br> 
+        <button id= "meinBestätigen"> Bestätigen</button> <br> <br>
+
+        <label > Radius Berechnen: </label> 
+        <input id="radius"> 
+        <p id="erg">Ergebnis:</p>
+        <button id= "best"> Bestätigen</button> <br><br>
+        
+
+
+        <label id = "zähler"> 0</label>
+        <div id="cont" > 
+        <button id="+" class ="buttons">Erhöhen</button>
+        <button id="res" class ="buttons">zurücksetzen</button>
+        <button id="-" class ="buttons">Verringern</button></div>
+
+        <input type="checkbox" id="Moin">
+        <label for="Moin">Test</label> <br>
+
+        <input type="datetime-local"  id="datum"> <br>
+        
+        <div id="zahlen">
+            
+
+            <label id="countzahl"> 0</label><br> 
+            <button id= "klickme">  Klick mich!</button>
+
+        </div>
+
+        <button id="hintergrund" onclick="changecolor()">Hintergrund = grün</button>
+      
+        <div id="tasche">      
+            
+            <input id="anzeige" readonly>
+            <div id= "buttons"> 
+                <button onclick="appendToDisplay(`+`)" class = "calcbt">+</button>
+                <button onclick="appendToDisplay(`1`)" class = "buttons1">1</button>
+                <button onclick="appendToDisplay(`2`)" class = "buttons1">2</button>
+                <button onclick="appendToDisplay(`3`)" class = "buttons1">3</button>
+                <button onclick="appendToDisplay(`-`)"class = "calcbt" > -</button>
+                <button onclick="appendToDisplay(`4`)" class = "buttons1">4</button>
+               
+
+                <button onclick="appendToDisplay(`5`)" class = "buttons1">5</button>
+                <button onclick="appendToDisplay(`6`)" class = "buttons1">6</button>
+                <button onclick="appendToDisplay(`*`)"class = "calcbt" > *</button>
+
+
+
+                <button onclick="appendToDisplay(`7`)" class = "buttons1">7</button>
+
+
+                <button onclick="appendToDisplay(`8`)" class = "buttons1">8</button>
+                <button onclick="appendToDisplay(`9`)" class = "buttons1">9</button>
+                <button onclick="appendToDisplay(`/`)"class = "calcbt" > /</button>
+                <button onclick="calculate(`=`)"class = "calcbt" >=</button>
+
+                <button onclick="clearDisplay(`C`)"class = "calcbt" >C</button>
+
+
+
+               </div>
+            
+               
+
+        
+
+
+
+        </div>
+        <script src="index.js"></script>        
+
+    </body>
+    </html>
