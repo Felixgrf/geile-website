@@ -1,7 +1,8 @@
 body{
-    background-image: url(new.jpeg);
+    background-blend-mode: color-burn;
     background-position: center;
     background-repeat: no-repeat;
+    background: linear-gradient(to right, #5450c4, #acacd0);
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
