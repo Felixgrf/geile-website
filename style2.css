@@ -1,0 +1,80 @@
+*{
+    
+    box-sizing: border-box;
+
+}
+header{
+    background-color:#53536f;
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: gray;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navbar li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(109, 104, 101);
+}
+main{
+    color: rgb(69, 78, 69);
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px;
+    font-stretch: expanded;
+}
+
+#button1{
+    border-radius: 20px;
+    color: rgb(203, 199, 207);
+    background-color: rgb(109, 104, 101);
+    font-variant: inherit;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttonclass{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+

@@ -19,8 +19,9 @@ document.getElementById("best").onclick = function(){
     var radius = parseFloat(document.getElementById("radius").value);
     if (!isNaN(radius)) {
         ergebnis = document.getElementById("radius").value*2*3.14
+        document.getElementById("radius").value = "";
         document.getElementById("erg").textContent = `Ergebnis: Der Umfang beträgt ${ergebnis} cm `
-    
+        
     }
    else 
    document.getElementById("erg").textContent = `Du musst eine Zahl eingeben `
@@ -40,6 +41,8 @@ increaseBtn.onclick = function(){
 
 resetBtn.onclick = function(){
 zählerLbl.textContent= reset;
+document.getElementById("button3").style.backgroundColor = "rgb(156, 121, 121)";
+document.body.style.background = "linear-gradient(to right, #5450c4, #acacd0)";
 }
 decreaseBtn.onclick = function(){
     count--;
@@ -96,6 +99,11 @@ function changecolor() {
         document.body.style.backgroundImage = "none";
         document.body.style.backgroundColor = "green";
     });
+}
+
+document.getElementById("button3").onclick= function(){
+    document.getElementById("button3").style.backgroundColor = "#ff0000";
+    
 }
 
 
