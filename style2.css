@@ -10,31 +10,38 @@ header{
     border-radius: 20px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar{
-    background-color: gray;
-    height: 50px;
-    border-radius: 25px;
+.navbar {
+    display: flex;
     margin-top: 20px;
-    text-align: center;
-
+    align-items: center; /* Vertically centers the items */
+    justify-content: center; /* Horizontally centers the items, if needed */
+    height: 60px; /* Adjust the height as per your requirement */
+    background-color: rgb(151, 150, 150); /* Example background color for navbar */
+    border-radius: 25px;
 }
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex; /* To align list items horizontally */
+}
+
+.navbar li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(109, 104, 101);
+    display: flex; /* Needed to vertically align text within li */
+    align-items: center; /* Vertically centers the text within li */
+}
+
 .navbar a{
     color: white;
     text-decoration: none;
     
 }
-.navbar ul{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-.navbar li{
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: rgb(109, 104, 101);
-}
+
 main{
     color: rgb(69, 78, 69);
 }
@@ -48,11 +55,13 @@ section{
     width: 40%;
     float: left;
     padding: 10px;
+    color: red;
 }
 article{
     width: 40%;
     float: left;
     padding: 10px;
+    color: gold;
 }
 footer{
     display: block;
@@ -66,7 +75,7 @@ footer{
 #button1{
     border-radius: 20px;
     color: rgb(203, 199, 207);
-    background-color: rgb(109, 104, 101);
+    background-color: rgb(79, 104, 174);
     font-variant: inherit;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;

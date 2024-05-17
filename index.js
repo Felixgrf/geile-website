@@ -106,5 +106,7 @@ document.getElementById("button3").onclick= function(){
     
 }
 
-
+document.getElementById("button1").onclick= function(){
+    
+}
 
